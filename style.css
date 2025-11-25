@@ -266,11 +266,22 @@ nav {
 .texto-xbox{
   color: #ffffff;
 font-size: 30px;
-font-weight: 700
+font-weight: 700;
+
 
 }
 
 .banner-xbox{
   display: flex;
   justify-content: end;
+}
+
+.xbox-caixa{
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 120px;
+margin: 20px;
+
 }
